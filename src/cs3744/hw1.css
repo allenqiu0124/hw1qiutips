@@ -1,0 +1,65 @@
+/**
+ * Homework 1 start: Sets the view
+ *
+ * @author Allen Qiu
+ * @version 1
+ */
+/*
+ * Sets the background color to white
+ */
+.root {
+    -fx-background-color: white;
+}
+/*
+ * Sets properties of the slider i.e. show markings on the slider.
+ */
+.slider {
+    -fx-orientation: horizontal;
+    -fx-show-tick-labels: true;
+    -fx-show-tick-marks: true;
+    -fx-major-tick-unit: 50;
+    -fx-minor-tick-count: 4;
+    -fx-show-tick-labels: true;
+    -fx-snap-to-ticks: false;
+    -fx-block-increment: 1;
+}
+/*
+ * Aligns and sets the percentage value to a Red color
+ */
+#labelRedValue {
+    -fx-alignment: center-right;
+    -fx-text-fill: red;
+}
+/*
+ * Aligns the word 'Red'
+ */
+#labelRedName {
+    -fx-alignment: center;
+}
+/*
+ * Aligns and sets the percentage value to a Green color
+ */
+#labelGreenValue {
+    -fx-alignment: center-right;
+    -fx-text-fill: green;
+}
+/*
+ * Aligns the word 'Green'
+ */
+#labelGreenName {
+    -fx-alignment: center;
+}
+/*
+ * Aligns and sets the percentage value to a Blue color
+ */
+#labelBlueValue {
+    -fx-alignment: center-right;
+    -fx-text-fill: blue;
+}
+/*
+ * Aligns the word 'Blue'
+ */
+#labelBlueName {
+    -fx-alignment: center;
+}
+
